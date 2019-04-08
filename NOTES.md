@@ -22,4 +22,6 @@
 
 12. add index and new actions to items_controller.rb
 
-13. 
+13. add show action to items_controller.rb
+
+14. add show.html.erb to views/items

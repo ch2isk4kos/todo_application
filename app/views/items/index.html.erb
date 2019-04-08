@@ -2,8 +2,9 @@
 
 <div class="">
     <% @items.each do |item| %>
-        <%= item.title %>
-        <br>
-        <%= item.description%>
+        <h2><%= link_to item.title, item %></h2>
+        <p><%= item.description%></p>
     <% end %>
 </div>
+
+<%= link_to "New Item", new_item_path %>
