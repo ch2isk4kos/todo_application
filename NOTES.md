@@ -61,4 +61,13 @@
 
 26. add views/items/_welcome.html.erb __ partial to display when users sign out
 
-27. 
+27. add ability to complete an item (task)
+    - $ rails generate migration add_completed_at_to_items completed_at:datetime
+    - $ rake db:migrate
+    - restart the server
+
+28. create #complete in items_controller.rb
+
+29. create #completed? in item.rb
+
+30. create route for completing an item in routes.rb
