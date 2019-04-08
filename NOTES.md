@@ -19,3 +19,7 @@
 10. add resources :items to routes.rb
 
 11. add index, new and _form __ partial in views/items
+
+12. add index and new actions to items_controller.rb
+
+13. 

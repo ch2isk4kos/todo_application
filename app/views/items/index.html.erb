@@ -1,1 +1,9 @@
 <h1>INdex</h1>
+
+<div class="">
+    <% @items.each do |item| %>
+        <%= item.title %>
+        <br>
+        <%= item.description%>
+    <% end %>
+</div>
