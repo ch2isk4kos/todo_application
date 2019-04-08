@@ -13,3 +13,9 @@
 7. $ bundle install
 
 8. configure bootstrap-sass
+
+9. configure simple_form
+
+10. add resources :items to routes.rb
+
+11. add index, new and _form __ partial in views/items
