@@ -48,3 +48,9 @@
 21. restart the server
 
 22. add navbar to application.html.erb
+
+23. create Associations between User && Items
+    - item belongs to a user
+    - user has many items
+    - $ rails generate migration add_user_id_to_items user_id:integer
+    - $ rake db:migrate
