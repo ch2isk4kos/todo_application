@@ -25,3 +25,7 @@
 13. add show action to items_controller.rb
 
 14. add show.html.erb to views/items
+
+15. add edit, update && destroy actions to items_controller.rb
+
+16. create views/items/edit.html.erb
