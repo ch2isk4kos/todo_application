@@ -47,4 +47,4 @@
 
 21. restart the server
 
-22. 
+22. add navbar to application.html.erb
