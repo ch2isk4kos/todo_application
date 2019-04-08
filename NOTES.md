@@ -54,3 +54,11 @@
     - user has many items
     - $ rails generate migration add_user_id_to_items user_id:integer
     - $ rake db:migrate
+
+24. edit index action in items_controller.rb
+
+25. authenticate user in views/items/index.html.erb
+
+26. add views/items/_welcome.html.erb __ partial to display when users sign out
+
+27. 
