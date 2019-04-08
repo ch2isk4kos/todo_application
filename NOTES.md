@@ -29,3 +29,22 @@
 15. add edit, update && destroy actions to items_controller.rb
 
 16. create views/items/edit.html.erb
+
+17. add devise to Gemfile
+
+18. configure devise
+    - $ rails generate devise:install
+    - add to config/environments/development.rb:
+       config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+    - add to app/views/layouts/application.html.erb.
+       <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
+    - $ rails g devise:views
+
+19. $ rails generate devise User
+
+20. $ rake db:migrate
+
+21. restart the server
+
+22. 
