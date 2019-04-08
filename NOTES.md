@@ -71,3 +71,7 @@
 29. create #completed? in item.rb
 
 30. create route for completing an item in routes.rb
+
+31. add styling to application.css.scss
+
+32. link fontawesome cdn to application.html.erb
